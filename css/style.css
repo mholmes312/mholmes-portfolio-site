@@ -28,6 +28,10 @@ ul{
 	list-style: none;
 }
 
+p{
+	font-size: 15px;
+	color: #2A2D34;
+}
 
 /* header and showcase*/
 
@@ -72,7 +76,6 @@ pre{
 /* Arrow Down */
 
 .circle{
-	
 	position: absolute;
 	margin: 0 auto;
 	padding: 20px 0 0 0; 
@@ -82,9 +85,8 @@ pre{
 	width: 80px; 
 	height: 80px; 
 	text-align: center;
-	top: 80%;
+	top: 500px;
 	left: 50%;
-	right: 50%;
 }
 
 .circle:hover{
@@ -108,3 +110,38 @@ pre{
 		transform: translateY(5px);
 		 }
 }
+
+/* Navigation */
+nav{
+	width: 100%;
+}
+
+nav ul{
+	width: 100%;
+	background: #f6f6f6;
+	overflow: hidden;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul li{
+	color: #2A2D34;
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul li:hover{
+	color: #F33540;;
+}
+
+/* about me section */
+
+.about-me-text{
+	text-align: center;
+
+
+}
+
+
+
+
