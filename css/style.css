@@ -3,14 +3,14 @@
 body, html{
 	font: 15px/1.5 'Lato', sans-serif;
 	color: #2A2D34;
-	
+
 }
 
 h1{
 	font: 60px/1.0 Lato, sans-serif;
-	letter-spacing: 10px; 
-	color: #2A2D34; 
-	margin-bottom: 20px; 
+	letter-spacing: 10px;
+	color: #2A2D34;
+	margin-bottom: 20px;
 }
 
 h2{
@@ -22,7 +22,7 @@ h2{
 
 h3{
 	font: 20px/1.0 Lato, sans-serif;
-	color: #2A2D34; 
+	color: #2A2D34;
 	margin-bottom: 40px;
 }
 
@@ -95,21 +95,21 @@ hr {
 
 .circle{
 	margin: 0 auto;
-	padding: 28px 0 0 0; 
+	padding: 28px 0 0 0;
 	border: 1px solid #ffffff;
 	border-radius: 50%;
-	width: 80px; 
-	height: 80px; 
+	width: 80px;
+	height: 80px;
 	text-align: center;
 }
 
 .circle:hover{
 	background: rgba(255, 255, 255, 0.2);
-} 
+}
 
 .circle .fa{
 
-	color: #ffffff; 
+	color: #ffffff;
 	opacity: .5;
 	margin: auto;
 	padding: 0;
@@ -128,7 +128,7 @@ hr {
 /*Navigation*/
 
 nav{
-	
+
 }
 
 nav.navbar{
@@ -139,7 +139,7 @@ nav.navbar{
 }
 
 nav ul{
-	
+
 }
 
 nav ul li{
@@ -184,7 +184,7 @@ nav ul li a:hover{
 
 #portfolio{
 	position: relative;
-	background: #f6f6f6; 
+	background: #f6f6f6;
 	padding-top: 120px;
 	padding-bottom: 120px;
 
@@ -216,7 +216,7 @@ nav ul li a:hover{
 	color: #2A2D34;
 	font-weight: lighter;
 	text-decoration: none;
-}	
+}
 
 .categories{
 	padding: 0;
@@ -328,24 +328,24 @@ nav ul li a:hover{
 }
 .social-icons ul{
 	padding: 0;
-	
+
 }
 
 .social-icons ul li{
 	padding: 10px 15px;
 	display: inline-block;
-	
+
 }
 
 .social-icons ul li a{
-		
+
 }
 .social-icons i.fa {
 	font-size: 22px;
 	padding: 4px;
 	color: #444;
 	transition: all 0.5s;
-	
+
 }
 .social-icons i.fa:hover {
 	color: #000;
@@ -360,13 +360,16 @@ nav ul li a:hover{
 	padding: 30px 0;
 	  position: relative;
   clear:both;
- 
+
 }
 #footer p {
 	font-size: 13px;
 	color: #fff;
 }
 
-
+.portfolio-image {
+	height: 100%;
+	width: 100%;
+}
 
 
